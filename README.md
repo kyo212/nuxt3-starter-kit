@@ -2,74 +2,12 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## コミットメッセージ
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- feat：（ビルドスクリプトの新機能ではなく、ユーザーのための新機能）
+- fix: (ビルドスクリプトの修正ではなく、ユーザーのためのバグ修正)
+- docs：（ドキュメントの変更）
+- style: (書式設定、セミコロンの欠落など。プロダクションコードの変更はありません)
+- refactor: (実運用コードのリファクタリング。変数名の変更など)
+- test: (不足しているテストの追加、テストのリファクタリング。プロダクションコードは変更しない)
+- chore: (タスクの更新など、プロダクションコードの変更なし)
